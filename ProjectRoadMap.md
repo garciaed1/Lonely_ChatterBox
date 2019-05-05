@@ -15,3 +15,5 @@ The following is a road map that will be used to ensure the completion of this p
 8. Configure the ChatBot to respond with appropriate response from the repository
     1. Will have to develop keywords that tie back to the list of responses
      
+     
+NOTE: The assignments will be completed by the only developer on this project.
