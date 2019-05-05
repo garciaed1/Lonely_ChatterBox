@@ -3,7 +3,8 @@ The Lonely_ChatterBox is a Python program designed to keep you company when you 
 "ChatterBox" is not human he/she/it can still answer some basic healthcare related questions that can be found in its
  repository. 
  
- **WARNING**: Do NOT provide it personal information as it has a rich history of blackmailing people for 'bytes'.
+ **WARNING**: Do NOT provide personal information as the ChatBot has a rich history of blackmailing people for 
+ **_bytes_**.
 
 ## Installation
 
@@ -25,7 +26,8 @@ import ListTrainer
 ```
 
 ## Contributing
-Pull requests are not welcomed as this Bot is tired. For major changes, please email the Bot and if no response 
+Pull requests are not welcomed as this ChatBot is lonely and tired. For major changes, please email the ChatBot at 
+`inochat@who.com` and if no response 
 within 24hrs..........
 
 
