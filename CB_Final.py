@@ -34,13 +34,12 @@ def LemNormalize(text):
 	return LemTokens(nltk.word_tokenize(text.lower().translate(remove_punct_dict)))
 
 
-GREETING_INPUTS = ("hello", "hi", "greetings", "sup", "what's up", "hey","hola")
-GREETING_RESPONSES = ["hi", "hey", "hola", "hi there", "hello", "Are you are talking to me", "Bonjour","Ciao"]
+GREETING_INPUTS = ("hello", "hi", "greetings", "sup", "what's up", "hey", "hola")
+GREETING_RESPONSES = ["Hi", "Hey", "Hola", "Hi There", "Hello", "Are you are talking to me?", "Bonjour", "Ciao"]
 
 
 # Did you start with a greeting?
 def greeting(sentence):
-	"""If user's input is a greeting, return a greeting response"""
 	for word in sentence.split():
 		if word.lower() in GREETING_INPUTS:
 			return random.choice(GREETING_RESPONSES)
@@ -48,7 +47,6 @@ def greeting(sentence):
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-
 
 # Generating response
 def response(user_response):
@@ -62,7 +60,7 @@ def response(user_response):
 	flat.sort()
 	req_tfidf = flat[-2]
 	if (req_tfidf == 0):
-		robo_response = robo_response + "I am sorry! I have't learned that yet."
+		robo_response = robo_response + "Sorry! No Comprendo....Try Again!."
 		return robo_response
 	else:
 		robo_response = robo_response + sent_tokens[idx]
@@ -70,11 +68,11 @@ def response(user_response):
 
 
 flag = True
-print("Hi! My name is CBot. I can assist you with medication side effects. ")
-print(" -- ")
-print("To begin, enter the name of a medication?")
+print("Hi! My name is CBot. I'm an expert at providing medication side effects. ")
 print(" -- ")
 print("At anytime, type 'Bye' to end our conversation")
+print(" -- ")
+print("To begin, enter the name of a medication?")
 
 while (flag == True):
 	user_response = input()
