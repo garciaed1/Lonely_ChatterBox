@@ -19,11 +19,10 @@ pip install ListTrainer
 ## Usage
 
 ```python
-import foobar
+import ChatBot
+import ListTrainer
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+....you decide what the best approach is here
 ```
 
 ## Contributing
