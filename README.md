@@ -1,3 +1,4 @@
+![Bot](https://github.com/garciaed1/Lonely_ChatterBox/blob/master/Chatbot.png)
 # Lonely_ChatterBox
 The Lonely_ChatterBox is a Python program designed to keep you company when you are lonely. Although this 
 "ChatterBox" is not human he/she/it can still answer some basic healthcare related questions that can be found in its
