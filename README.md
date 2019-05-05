@@ -32,3 +32,4 @@ within 24hrs..........
 
 
 ## License
+Que es **License**? Who needs such things, i'm not human so your laws do not apply to me.
